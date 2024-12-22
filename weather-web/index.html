@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Journal App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Weather Journal</h1>
+    </header>
+    <main>
+      <section class="input-section">
+        <label for="zip">Enter ZIP Code:</label>
+        <input type="text" id="zip" placeholder="Enter zip code here">
+
+        <label for="feelings">How are you feeling today?</label>
+        <textarea id="feelings" placeholder="Share your thoughts..."></textarea>
+
+        <button id="generate">Generate</button>
+      </section>
+
+      <section class="output-section" id="entryHolder">
+        <div id="date">Date: </div>
+        <div id="temp">Temperature: </div>
+        <div id="content">Feelings: </div>
+      </section>
+    </main>
+    <footer>
+      <p>Retro Weather Journal &copy; 2024</p>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+
+</html>

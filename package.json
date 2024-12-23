@@ -4,7 +4,7 @@
   "description": "- Create an user account at [OpenWeather](https://openweathermap.org/ 'OpenWeather') to obtain the app ID.\r - Create a file named .env with the following code and your app ID.",
   "license": "ISC",
   "author": "nik nik",
-  "type": "commonjs",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -16,3 +16,8 @@ OPENWEATHER_APP_ID=your OpenWeather App ID
 - Install Dotenv - `npm install dotenv`
 - Install Node-Fetch - `npm install node-fetch`
 - Initiate the local server - `node server.js`
+
+## if you face any problems on run the app
+
+- `npm cache clean --force`
+- `npm install`

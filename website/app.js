@@ -1,5 +1,7 @@
 // Personal API Key for OpenWeatherMap API
-const apiKey = '<your_api_key>&units=imperial';
+//this is my api key you shall create your own api key by visiting https://home.openweathermap.org/api_keys
+const apiKey = 'fe687cea13aad4e42201b7956911b7ca&units=imperial';
+
 const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?zip=';
 
 // Event listener for the 'Generate' button
